@@ -3,7 +3,9 @@
 
  We proposed a Chinese handwriting generator via cascaded-pix2pix to generate the handwriting with specific style. Our model takes the font charectar image as input and generate the handwriting iamge as output. In our experiment, we use 1000 differnet charectars in train_list.txt with source Han Serif(思源宋體) and handwriting to train our model. With the trained model, we can generate the unseen charactars very well.  
 
+ The generated handwritting poem.
 ![alt text](assets/poem.png)
+
 
 
  In the origin pix2pix, it foucs on the image-to-image translation which the image pair are usually in the same position and structure. However, for handwriting generation, the font charectars and handwriting may vary a lot. Therefore, the result was not very good.
